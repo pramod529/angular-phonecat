@@ -9,4 +9,3 @@ test:
     - sleep 5
   override:
     - npm run test-single-run
-    - npm run protractor
