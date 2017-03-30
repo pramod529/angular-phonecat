@@ -9,3 +9,8 @@ test:
     - sleep 5
   override:
     - npm run test-single-run
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: angular-phonecat
